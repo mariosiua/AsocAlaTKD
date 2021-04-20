@@ -1,0 +1,80 @@
+/*PagDirectiva*/
+/*Titulos*/
+#Direc #p1 {
+    font-size: 35px;/*la propiedad "font-size" se usa para especificar el tamaño de la fuente*/
+    color: red;/*indica que los elementos tendran el texto de color rojo*/
+    text-align: center;/*la propiedad "text-align" se usa para indicar donde estara el texto dentro del elemento*/
+}
+/*texto*/
+#Direc p {
+    font-size: 25;/*la propiedad "font-size" se usa para especificar el tamaño de la fuente*/
+    margin: 3px;/*define el margen que tendra el contenido, aplica para todos los lados*/
+    text-align: center;
+}
+#Direc dt {font-size: 30px}
+#Direc li, dd {font-size: 25px}
+#Direc dd span, dt span {font-size: 15px}
+/*listas*/
+#Direc ol {
+    margin-top: 0;/*define el margen que tendra el contenido en el borde del lado superior*/
+    text-align: center;
+    list-style-position: inside;/*Define la posicion del marcador de la lista*/
+    list-style-type: lower-latin;/*Define el estilo de la lista segun el patron de este*/
+}
+#Direc dt {padding-top: 40px;/*la propiedad "padding-top" se usa para indicar el espacio que hay entre el contenido y el borde del lado superior*/}
+#Direc dt, #Direc dd {margin-left: 120px;/*define el margen que tendra el contenido en el borde del lado izquierdo*/}
+/*imagenes*/
+#Direc img {
+    float: left;/*especifica la posicion de donde se mostrara el elemento*/
+    margin: 10px;
+}
+/*PagColaboradores*/
+/*listas*/
+#cola dt {
+    font-size: 23px;
+    margin-top: 15px;
+    color: red;/*indica que los elementos tendran el texto de color rojo*/
+}
+#cola dd {
+    font-size: 19px;
+    color: white;/*indica que los elementos tendran el texto de color blanco*/
+}
+/*PagDocu*/
+#Docu p{font-size: 25px}
+#Docu a{font-size: 20px}
+/*PagGaleria*/
+/*textos*/
+#Galeria p {
+    color: red;
+    font-size: 40px;/*la propiedad "font-size" se usa para especificar el tamaño de la fuente*/
+    margin-top: 0;
+    margin-left: 100px;/*define el margen que tendra el contenido en el borde del lado izquierdo*/
+    margin-bottom: 30px;/*define el margen que tendra el contenido en el borde del lado inferior*/
+}
+/*tablas*/
+table {border-collapse: collapse;/*la propiedad "border-collapse" se usa para definir como se vera los bordes, en este caso, se desactiva*/}
+#Galeria td {
+    padding-top: 5px;/*la propiedad "padding-top" se usa para indicar el espacio que hay entre el contenido y el borde del lado superior*/
+    padding-bottom: 5px;/*la propiedad "padding-botton" se usa para indicar el espacio que hay entre el contenido y el borde al lado inferior*/
+}
+/*imagenes*/
+#Galeria img {
+    height: 300px;
+    display: block;/*define al elemento como un bloque, esto hace que lo afecte la propiedad "float"*/
+    margin: auto;
+}
+/*PagContactenos*/
+/*titulos*/
+#cont #p1 {
+    font-size: 22px;
+    margin: 10px;
+    color: blue;
+}
+/*texto*/
+#cont p, #cont a{font-size: 20px;/*la propiedad "font-size" se usa para especificar el tamaño de la fuente*/}
+/*imagenes*/
+#cont img {
+    float: left;/*especifica la posicion de donde se mostrara el elemento*/
+    width: 30px;/*muestra el tamaño del largo del elemento*/
+    margin: 5px;
+}

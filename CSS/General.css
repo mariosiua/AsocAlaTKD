@@ -1,0 +1,69 @@
+/*General*/
+body/*este selector aplica en su mayoria a todo el contenido*/ {
+    font-family: serif;/*esta propiedad se utiliza para aplicar una fuente*/
+    margin: 0;/*define el margen que tendra el contenido, aplica a todos los lados*/
+}
+/*Algunos selectores comienzan con #, esto son nombres especificos de elementos en HTML*/
+a, b, #p1 {color: red/*indica que los elementos tendran el texto de color rojo*/}
+nav, nav button, footer {
+    background: red;/*indica que el color del fondo de los elementos es rojo*/
+    color: white;/*indica que el color del texto sera blanco*/
+}
+/*Menu de navegacion*/
+nav, #MenuNav {
+    top: 0;/*posicion del elemento segun la parte superior del navegador*/
+    left: 0;/*posicion del elemento segun la parte izquierda del navegador*/
+/*define la posicion de estos dos selectores*/
+}
+#boNav {
+    min-width: 1310px;/*indica el minimo del largo del menu de navegacion, esto implica que se expandira a lo largo si el navegador se estira*/
+    overflow-y: hidden;/*no muestra el scroll del elemento segun "y"(de arriba a abajo)*/
+}
+nav {height: 120px;/*muestra el tamaño del ancho del elemento*/}
+#MenuNav {min-height: 120px;/*indica que minimo del ancho del elemento*/}
+#MenuNav:hover/*esta pseudo-clase indica que las propiedades se activan cuando el mouse esta encima de este*/{height: 200px}
+nav img {float: left/*especifica la posicion de donde se mostrara el elemento*/}
+#imglogo {margin: 10px;}
+/*Boton*/
+nav button {
+    font-size:22px;/*la propiedad "font-size" se usa para especificar el tamaño de la fuente*/
+    border: 0;/*la propiedad "border" se usa para definir el tamaño del border de la etiqueta*/
+    height: 100%;
+    padding-left: 15px; /*la propiedad "padding-left" se usa para indicar el espacio que hay entre el contenido y el borde al lado izquierdo*/
+    padding-right: 15px; /*lo mismo para con la propiedad "padding-right", pero al lado derecho*/
+    float: left;
+}
+nav button:hover {background-color:crimson;/*especifica el color de fondo del elemento, en este caso cambia de color cuando se posiciona el mouse*/}
+/*Boton desglegable*/
+#nav, #nav ul {
+    display: block;/*define al elemento como un bloque, esto hace que lo afecte la propiedad "float"*/
+    float: left;
+    list-style: none;/*indica cual estilo tendra la lista, en este caso se desactiva*/
+    padding: 0;/*define el espacio que hay entre el contenido y el borde, aplica a todos los lados*/
+    margin: 0;
+}
+#nav #li1 {height:120px}
+#nav ul {position: absolute/*el valor muestra que el elemento se mantendra en el area correspondiente*/}
+#nav ul li button {
+    width:100%;
+    min-height: 50px;
+}
+#nav img {width: 25px}
+#nav ul {display: none;/*el valor indica que no se muestre el elemento*/}
+#nav:hover ul {display:block;}/*significa que cuando el mouse se posicione en el elemento, se muestre el otro elemento*/
+/*Pie de pagina*/
+iframe, footer {
+    position: fixed;/*indica que el elemento se mantendra en su posicion cuando se mueva el navegador*/
+    width: 100%;
+    border: none;/*sin bordes*/
+}
+#boFooter {overflow: hidden;/*no muestra el scroll del elemento*/}
+#footer, footer {
+    bottom:0px;/*posicion del elemento segun la parte inferior del navegador*/
+    height: 50px;
+}
+footer {
+    text-align:center;/*la propiedad "text-align" se usa para indicar donde estara el texto dentro del elemento*/
+    font-size:20px;/*define el tamaño de la letra del elemento*/
+}
+footer label {margin: 2%;}

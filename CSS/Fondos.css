@@ -1,0 +1,21 @@
+body {
+    background-repeat: no-repeat;/*la propiedad "background-repeat" define la cantidad de veces que se repite el fondo de pantalla*/
+    background-attachment: fixed;/*la propiedad "background-attachment"define la posicion en la que estara el fondo de pantalla, en este caso, se mantendra en la misma ubicacion en el navegador*/
+}
+/*Estos selectores son nommbres de diferentes etiquetas en las paginas del sitio web*/
+#bo1 {
+    background-image:url("../Imagenes/fondoDirectiva.png");/*la propiedad "background-image" indica que se mostrara una imagen segun la direccion de "url"*/
+    background-size:cover;/*la propiedad "background-size" determina el tama;o del fondo de pantalla, en este caso, la imagen se espande por todo el nagevador*/
+    background-position: center;/*la propiedad "background-position" define la posicion en la que estara el fondo de pantalla, el valor determina que estara en el centro*/
+}
+#bo2 {
+    background-image: url("../Imagenes/ImgNosotros.png");
+    background-position: 0% 120px;/*en este caso, el 0% determina el porcentaje en el que estara ubicada la imagen segun "x" (de izquierda a derecha) y el 120px indica su posicion segun "y" (de arriba a abajo)*/
+    background-size: 38%;/*en este caso, se identifica que la imagen se mostrara en el 38% del tamaño del elemento "body"*/
+}
+#bo3 {
+    background-color: black;/*la propiedad "background-color" indica el color del fondo de pantalla, para aclarar, esto no afecta la imagen del fondo de pantalla, sino al body como tal*/
+    background-image: url("../Imagenes/img32.JPG");
+    background-position: 0% 120px;
+    background-size: 61.5%;
+}

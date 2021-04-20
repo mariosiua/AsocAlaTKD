@@ -1,0 +1,23 @@
+/*Titulos*/
+#p1, #p2 {
+    font-size: 22.5px;/*La propiedad "font-size" especifica el tamaño de la letra*/
+    margin: 5px;/*define el margen que tendra el contenido, aplica a todos los lados*/
+}
+#p2 {color: blue;/*indica que el color del texto sera blanco*/}
+/*parrafos*/
+main, section {
+    font-size: 17px;
+    float: left;/*especifica la posicion de donde se mostrara el elemento*/
+}
+/*alineacion*/
+main p, #matricula p {text-align: justify;}/*la propiedad "text-align" se usa para indicar donde estara el texto dentro del elemento*/
+main #p1, #Socios #p1, #horarios {text-align: center;}
+/*margenes*/
+main p, #matricula p {margin: 12px;}
+#horarios li {margin: 10px;}
+/*listas*/
+main ul, #horarios ul {list-style: none}/*indica cual estilo tendra la lista, en este caso se desactiva*/
+main ol li {color: red;}
+#Socios ol {list-style-type: lower-latin}/*Define el estilo de la lista segun el patron de este*/
+/*imagenes*/
+img {width: 25px}

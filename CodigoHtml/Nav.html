@@ -1,0 +1,42 @@
+<!DOCTYPE Html><!--Se utiliza para que el buscador identifique que es un archivo HTML-->
+<html><!--Etiqueta principal del archivo HTML-->
+    <head><!--etiqueta que hace referencia a la informacion del archivo HTML-->
+        <meta charset="utf-8"><!--esta etiqueta brinda informacion al buscador, aqui define que se utilizara el protocolo UTF-8 para que el navegador identifique algunos caracteres especiales-->
+        <link rel="stylesheet" type="text/css" href="../CSS/General.css"><!--Esta etiqueta enlace el HTML con un archivo CSS-->
+        <script src="../JavaScript/ClicDerecho.js"></script><!--Esta etiqueta enlace el documento con un archivo en JavaScript-->
+    </head>
+    <body id="boNav"><!--La etiqueta del contenido; se utiliza el "id" para darle una nombre en especifico e identificarlo en CSS-->
+<nav><!--Esta etiqueta funciona como una seccion-->
+<!--Los caracteres especiales comienzan en &##... estos son letras con tildes, tambien parentesis o comillas-->
+    <img id=imglogo src=../Imagenes/logoAcademia.png><!--es una imagen, el abributo "src" enlaza la ubicacion de la imagen-->
+    <a href="PagNosotros.html" target="_top"><button>Nosotros</button></a>
+    <a href="PagDirectiva.html" target="_top"><button>Directiva</button></a>
+    <a href="PagSocios.html" target="_top"><button>Socios</button></a>
+    <a href="PagCola.html" target="_top"><button>Colaboradores</button></a>
+    <a href="PagMatricula.html" target="_top"><button>Matr&iacute;culas</button></a>
+    <!--La etiqueta "a" es un hipervinculo que envia al usuario a la direccion segun lo indique el atributo "href", el atributo "target" señala como enviara al usuario al enlace, esta dicta que se actualice en toda la pestaña, esto es asi porque es una macros, y se emplea la etiqueta "button" (un boton) como medio para manifestar el hipervinculo-->
+    <ul id="nav"><!--esta etiqueta es para indicar que es una lista-->
+        <li id="li1"><!--la etiqueta "li" es un elemento que forma parte de la lista, en ella esta el hipervinculo-->
+<!--Los atributos "id" en estas dos etiquetas es para identificarlas especificamente en CSS-->
+            <a href="PagHorarios.html" target="_top"><button>Horarios</button></a>
+        </li>
+        <ul><!--una lista, dentro de otra lista-->
+            <li>
+                <a href="PagHorarios.html#CD19" target="_top"><button>Horarios<br>Especiales</button></a>
+            </li>
+        </ul>
+    </ul>
+    <a href="PagDocu.html" target="_top"><button>Documentos</button></a>
+    <a href="PagGaleria.html" target="_top"><button>Galer&iacute;a</button></a>
+    <ul id="nav">
+        <li id="li1"><a href="PagContactenos.html" target="_top"><button>Cont&aacute;ctenos</button></a></li>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/Asociación-Deportiva-TKD-Alajuela-270534789723546/" target="_blank"><button><img src="../Imagenes/logofacebook.png">Facebook</button></a><!--este hipervinculo esta enlazado con una pagina externa, el valor del "target" indica que se abrira en una pestaña nueva, en el boton hay una imagen-->
+            </li>
+        
+        </ul>
+    </ul>
+</nav>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+/*margenes de sections*/
+main, section, #Galeria {
+    margin-top: 170px;/*define el margen que tendra el contenido en el borde del lado superior*/
+    margin-bottom: 100px;/*define el margen que tendra el contenido en el borde del lado inferior*/
+}
+main {
+    margin-right: 5.5%;/*define el margen que tendra el contenido en el borde del lado derecho*/
+    margin-left: 40.5%;/*define el margen que tendra el contenido en el borde del lado izquierdo*/
+}
+#cola {
+    margin-top: 147px;
+    margin-left: 65%;
+    margin-right: 6%;
+}
+#Direc, #matricula, #horarios {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#Socios, #Docu, #cont {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#Galeria {
+    margin-left: auto;
+    margin-right: auto;
+}
